@@ -6,7 +6,7 @@ export const conectDB = async () => {
     await mongoose.connect(
       `mongodb+srv://octadev:112020a@clusteroctavio.n8a1lsl.mongodb.net/merndb?retryWrites=true&w=majority&appName=ClusterOctavio`
     );
-    console.log(`>>>DATABASE SUCCESSFULLY CONNECTED`);
+    console.log(`>>>DATABASE SUCCESSFULLY CONNECTED<<<`);
   } catch (error) {
     console.error(error);
   }
